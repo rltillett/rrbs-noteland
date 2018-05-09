@@ -1,8 +1,8 @@
-# Reports from Bismark methylation extractor
-## Bismark summary
+# Reports for primary analysis to Bismark alignment
+## from Bismark methylation extractor
+### Bismark summary
 [bismark_summary_report](https://rltillett.github.io/rrbs-noteland/bismark_report/bismark_summary_report.html)
-
-## Detailed by sample
+### Detailed by sample
 [OK-carcass-I_S38_L002_R1_001_trimmed_bismark_bt2_SE_report](https://rltillett.github.io/rrbs-noteland/bismark_report/OK-carcass-I_S38_L002_R1_001_trimmed_bismark_bt2_SE_report.html)
 [OK-carcass-II_S39_L002_R1_001_trimmed_bismark_bt2_SE_report](https://rltillett.github.io/rrbs-noteland/bismark_report/OK-carcass-II_S39_L002_R1_001_trimmed_bismark_bt2_SE_report.html)
 [OK-legs-I_S36_L002_R1_001_trimmed_bismark_bt2_SE_report](https://rltillett.github.io/rrbs-noteland/bismark_report/OK-legs-I_S36_L002_R1_001_trimmed_bismark_bt2_SE_report.html)
