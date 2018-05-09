@@ -1,0 +1,158 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: raw_fq/RI-carcass-II_S47_L002_R1_001.fastq.gz
+Trimming mode: single-end
+Trim Galore version: 0.4.4_dev
+Cutadapt version: 1.16
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' ()
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+File was specified to be an MspI-digested RRBS sample. Read 1 sequences with adapter contamination will be trimmed a further 2 bp from their 3' end, and Read 2 sequences will be trimmed by 2 bp from their 5' end to remove potential methylation-biased bases from the end-repair reaction
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.16 with Python 2.7.14
+Command line parameters: -f fastq -e 0.1 -O 1 -a AGATCGGAAGAGC trimrrbs1_fq/RI-carcass-II_S47_L002_R1_001.fastq.gz_qual_trimmed.fastq
+Running on 1 core
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 1314.74 s (36 us/read; 1.67 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              36,575,491
+Reads with adapters:                16,793,714 (45.9%)
+Reads written (passing filters):    36,575,491 (100.0%)
+
+Total basepairs processed: 3,650,780,148 bp
+Total written (filtered):  3,490,213,493 bp (95.6%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 16793714 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 28.2%
+  C: 0.5%
+  G: 43.8%
+  T: 27.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	8968785	9143872.8	0	8968785
+2	2107082	2285968.2	0	2107082
+3	662149	571492.0	0	662149
+4	290569	142873.0	0	290569
+5	175621	35718.3	0	175621
+6	94512	8929.6	0	94512
+7	102870	2232.4	0	102870
+8	104577	558.1	0	104577
+9	93312	139.5	0	92124 1188
+10	85951	34.9	1	82583 3368
+11	101099	8.7	1	96924 4175
+12	83754	2.2	1	80256 3498
+13	80759	0.5	1	76285 4474
+14	141965	0.5	1	135222 6743
+15	99133	0.5	1	94348 4785
+16	93939	0.5	1	89148 4791
+17	98791	0.5	1	93792 4999
+18	76010	0.5	1	72330 3680
+19	80770	0.5	1	76886 3884
+20	89857	0.5	1	85496 4361
+21	83639	0.5	1	79529 4110
+22	66712	0.5	1	63581 3131
+23	93342	0.5	1	89188 4154
+24	110291	0.5	1	105082 5209
+25	99610	0.5	1	94992 4618
+26	110523	0.5	1	105704 4819
+27	120533	0.5	1	114839 5694
+28	89330	0.5	1	84902 4428
+29	124024	0.5	1	118308 5716
+30	72952	0.5	1	69450 3502
+31	82366	0.5	1	78602 3764
+32	110097	0.5	1	105271 4826
+33	72140	0.5	1	68924 3216
+34	83642	0.5	1	80060 3582
+35	80425	0.5	1	76738 3687
+36	83040	0.5	1	79307 3733
+37	75059	0.5	1	71711 3348
+38	89575	0.5	1	85492 4083
+39	65478	0.5	1	62240 3238
+40	62624	0.5	1	59685 2939
+41	87333	0.5	1	83490 3843
+42	61967	0.5	1	58677 3290
+43	76274	0.5	1	72999 3275
+44	71342	0.5	1	68236 3106
+45	57275	0.5	1	54715 2560
+46	65102	0.5	1	62280 2822
+47	67502	0.5	1	64546 2956
+48	58698	0.5	1	56102 2596
+49	53544	0.5	1	51134 2410
+50	49747	0.5	1	47480 2267
+51	58055	0.5	1	55519 2536
+52	44795	0.5	1	42723 2072
+53	119824	0.5	1	114482 5342
+54	46381	0.5	1	44258 2123
+55	55032	0.5	1	52459 2573
+56	79763	0.5	1	76131 3632
+57	31419	0.5	1	30021 1398
+58	34403	0.5	1	32817 1586
+59	48490	0.5	1	46438 2052
+60	35419	0.5	1	33770 1649
+61	26003	0.5	1	24831 1172
+62	29781	0.5	1	28507 1274
+63	23401	0.5	1	22298 1103
+64	22161	0.5	1	21264 897
+65	15064	0.5	1	14448 616
+66	13313	0.5	1	12815 498
+67	10588	0.5	1	10164 424
+68	7558	0.5	1	7230 328
+69	6377	0.5	1	6126 251
+70	5647	0.5	1	5427 220
+71	8841	0.5	1	8450 391
+72	3198	0.5	1	3008 190
+73	3573	0.5	1	2439 1134
+74	3097	0.5	1	2234 863
+75	2072	0.5	1	1654 418
+76	1036	0.5	1	821 215
+77	667	0.5	1	520 147
+78	551	0.5	1	457 94
+79	234	0.5	1	166 68
+80	250	0.5	1	205 45
+81	66	0.5	1	40 26
+82	41	0.5	1	8 33
+83	28	0.5	1	15 13
+84	10	0.5	1	2 8
+85	10	0.5	1	2 8
+86	14	0.5	1	2 12
+87	9	0.5	1	2 7
+88	4	0.5	1	0 4
+89	8	0.5	1	1 7
+90	2	0.5	1	0 2
+91	2	0.5	1	0 2
+92	9	0.5	1	1 8
+93	11	0.5	1	0 11
+94	4	0.5	1	1 3
+95	8	0.5	1	0 8
+96	11	0.5	1	1 10
+97	20	0.5	1	0 20
+98	14	0.5	1	0 14
+99	74	0.5	1	1 73
+100	685	0.5	1	6 679
+
+
+RUN STATISTICS FOR INPUT FILE: raw_fq/RI-carcass-II_S47_L002_R1_001.fastq.gz
+=============================================
+36575491 sequences processed in total
+Sequences were truncated to a varying degree because of deteriorating qualities (Phred score quality cutoff: 20):	1207441 (3.3%)
+Sequences removed because they became shorter than the length cutoff of 20 bp:	5135 (0.0%)
+RRBS reads trimmed by additional 2 bp when adapter contamination was detected:	16790276 (45.9%)
+

@@ -1,0 +1,158 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: raw_fq/RI-legs-II_S45_L002_R1_001.fastq.gz
+Trimming mode: single-end
+Trim Galore version: 0.4.4_dev
+Cutadapt version: 1.16
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' ()
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+File was specified to be an MspI-digested RRBS sample. Read 1 sequences with adapter contamination will be trimmed a further 2 bp from their 3' end, and Read 2 sequences will be trimmed by 2 bp from their 5' end to remove potential methylation-biased bases from the end-repair reaction
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.16 with Python 2.7.14
+Command line parameters: -f fastq -e 0.1 -O 1 -a AGATCGGAAGAGC trimrrbs1_fq/RI-legs-II_S45_L002_R1_001.fastq.gz_qual_trimmed.fastq
+Running on 1 core
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 879.73 s (46 us/read; 1.31 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              19,143,351
+Reads with adapters:                 9,754,701 (51.0%)
+Reads written (passing filters):    19,143,351 (100.0%)
+
+Total basepairs processed: 1,909,453,015 bp
+Total written (filtered):  1,772,582,341 bp (92.8%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 9754701 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 23.1%
+  C: 0.6%
+  G: 53.4%
+  T: 22.7%
+  none/other: 0.2%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	4252024	4785837.8	0	4252024
+2	1008843	1196459.4	0	1008843
+3	332167	299114.9	0	332167
+4	163134	74778.7	0	163134
+5	108881	18694.7	0	108881
+6	68575	4673.7	0	68575
+7	75424	1168.4	0	75424
+8	75514	292.1	0	75514
+9	70116	73.0	0	69552 564
+10	64958	18.3	1	62492 2466
+11	77410	4.6	1	74086 3324
+12	65768	1.1	1	62933 2835
+13	64352	0.3	1	60615 3737
+14	102444	0.3	1	97377 5067
+15	73671	0.3	1	69844 3827
+16	73365	0.3	1	69578 3787
+17	74629	0.3	1	70734 3895
+18	59845	0.3	1	56775 3070
+19	65897	0.3	1	62485 3412
+20	75962	0.3	1	72074 3888
+21	65376	0.3	1	61837 3539
+22	56759	0.3	1	53993 2766
+23	73619	0.3	1	70257 3362
+24	87508	0.3	1	83258 4250
+25	68599	0.3	1	65217 3382
+26	81169	0.3	1	77314 3855
+27	84394	0.3	1	80213 4181
+28	70647	0.3	1	67064 3583
+29	94096	0.3	1	89546 4550
+30	63485	0.3	1	60012 3473
+31	69142	0.3	1	65670 3472
+32	93459	0.3	1	89164 4295
+33	65529	0.3	1	62313 3216
+34	73847	0.3	1	70380 3467
+35	72566	0.3	1	68939 3627
+36	68964	0.3	1	65554 3410
+37	71862	0.3	1	68085 3777
+38	82783	0.3	1	78544 4239
+39	60835	0.3	1	57876 2959
+40	60559	0.3	1	57346 3213
+41	91719	0.3	1	87445 4274
+42	53737	0.3	1	50716 3021
+43	57956	0.3	1	55290 2666
+44	68866	0.3	1	65686 3180
+45	56442	0.3	1	53879 2563
+46	61371	0.3	1	58702 2669
+47	67673	0.3	1	64524 3149
+48	56239	0.3	1	53597 2642
+49	52230	0.3	1	49660 2570
+50	53615	0.3	1	51132 2483
+51	57203	0.3	1	54590 2613
+52	45478	0.3	1	43323 2155
+53	85383	0.3	1	81381 4002
+54	44925	0.3	1	42558 2367
+55	56034	0.3	1	53306 2728
+56	68066	0.3	1	64680 3386
+57	34646	0.3	1	32923 1723
+58	36532	0.3	1	34712 1820
+59	49187	0.3	1	46831 2356
+60	35112	0.3	1	33385 1727
+61	27977	0.3	1	26687 1290
+62	32339	0.3	1	30873 1466
+63	25071	0.3	1	23854 1217
+64	22851	0.3	1	21869 982
+65	18674	0.3	1	17816 858
+66	13739	0.3	1	13253 486
+67	11437	0.3	1	10980 457
+68	10327	0.3	1	9889 438
+69	6259	0.3	1	5993 266
+70	5241	0.3	1	5043 198
+71	5993	0.3	1	5730 263
+72	2750	0.3	1	2465 285
+73	6744	0.3	1	1751 4993
+74	4973	0.3	1	1561 3412
+75	2436	0.3	1	936 1500
+76	1265	0.3	1	413 852
+77	630	0.3	1	198 432
+78	510	0.3	1	186 324
+79	258	0.3	1	85 173
+80	189	0.3	1	75 114
+81	106	0.3	1	13 93
+82	81	0.3	1	5 76
+83	67	0.3	1	3 64
+84	38	0.3	1	3 35
+85	35	0.3	1	1 34
+86	30	0.3	1	0 30
+87	26	0.3	1	1 25
+88	17	0.3	1	0 17
+89	28	0.3	1	0 28
+90	15	0.3	1	0 15
+91	17	0.3	1	0 17
+92	26	0.3	1	0 26
+93	21	0.3	1	0 21
+94	29	0.3	1	0 29
+95	29	0.3	1	1 28
+96	40	0.3	1	0 40
+97	69	0.3	1	0 69
+98	92	0.3	1	0 92
+99	331	0.3	1	3 328
+100	3350	0.3	1	5 3345
+
+
+RUN STATISTICS FOR INPUT FILE: raw_fq/RI-legs-II_S45_L002_R1_001.fastq.gz
+=============================================
+19143351 sequences processed in total
+Sequences were truncated to a varying degree because of deteriorating qualities (Phred score quality cutoff: 20):	651702 (3.4%)
+Sequences removed because they became shorter than the length cutoff of 20 bp:	16862 (0.1%)
+RRBS reads trimmed by additional 2 bp when adapter contamination was detected:	9738559 (50.9%)
+

@@ -1,0 +1,158 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: raw_fq/TN-legs-I_S40_L002_R1_001.fastq.gz
+Trimming mode: single-end
+Trim Galore version: 0.4.4_dev
+Cutadapt version: 1.16
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' ()
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+File was specified to be an MspI-digested RRBS sample. Read 1 sequences with adapter contamination will be trimmed a further 2 bp from their 3' end, and Read 2 sequences will be trimmed by 2 bp from their 5' end to remove potential methylation-biased bases from the end-repair reaction
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.16 with Python 2.7.14
+Command line parameters: -f fastq -e 0.1 -O 1 -a AGATCGGAAGAGC trimrrbs1_fq/TN-legs-I_S40_L002_R1_001.fastq.gz_qual_trimmed.fastq
+Running on 1 core
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 1135.00 s (38 us/read; 1.57 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              29,657,042
+Reads with adapters:                14,784,710 (49.9%)
+Reads written (passing filters):    29,657,042 (100.0%)
+
+Total basepairs processed: 2,960,082,393 bp
+Total written (filtered):  2,774,496,017 bp (93.7%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 14784710 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 23.5%
+  C: 0.4%
+  G: 52.8%
+  T: 23.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	6746931	7414260.5	0	6746931
+2	1624015	1853565.1	0	1624015
+3	556697	463391.3	0	556697
+4	257747	115847.8	0	257747
+5	150274	28962.0	0	150274
+6	99841	7240.5	0	99841
+7	111992	1810.1	0	111992
+8	125696	452.5	0	125696
+9	105616	113.1	0	103142 2474
+10	101570	28.3	1	96445 5125
+11	109217	7.1	1	102403 6814
+12	96693	1.8	1	90730 5963
+13	92305	0.4	1	85355 6950
+14	102428	0.4	1	94743 7685
+15	115068	0.4	1	106867 8201
+16	109876	0.4	1	101829 8047
+17	110486	0.4	1	102118 8368
+18	96192	0.4	1	89176 7016
+19	93685	0.4	1	86744 6941
+20	114785	0.4	1	106247 8538
+21	95112	0.4	1	88205 6907
+22	89452	0.4	1	83064 6388
+23	116100	0.4	1	108072 8028
+24	134571	0.4	1	124931 9640
+25	109595	0.4	1	101863 7732
+26	118738	0.4	1	110402 8336
+27	136508	0.4	1	127015 9493
+28	111487	0.4	1	103415 8072
+29	124263	0.4	1	115552 8711
+30	97333	0.4	1	90433 6900
+31	97268	0.4	1	90598 6670
+32	134100	0.4	1	124826 9274
+33	99811	0.4	1	93044 6767
+34	113155	0.4	1	105335 7820
+35	103694	0.4	1	96339 7355
+36	113408	0.4	1	105271 8137
+37	102371	0.4	1	94882 7489
+38	124624	0.4	1	115724 8900
+39	87586	0.4	1	81216 6370
+40	90127	0.4	1	83319 6808
+41	115586	0.4	1	108798 6788
+42	71157	0.4	1	65447 5710
+43	92090	0.4	1	85723 6367
+44	94070	0.4	1	87525 6545
+45	79348	0.4	1	73762 5586
+46	89831	0.4	1	83879 5952
+47	91602	0.4	1	85255 6347
+48	79361	0.4	1	73997 5364
+49	69361	0.4	1	64638 4723
+50	67700	0.4	1	63043 4657
+51	84932	0.4	1	79379 5553
+52	60793	0.4	1	56566 4227
+53	84627	0.4	1	78739 5888
+54	62775	0.4	1	58522 4253
+55	72733	0.4	1	67638 5095
+56	89883	0.4	1	83578 6305
+57	40159	0.4	1	37406 2753
+58	40994	0.4	1	38142 2852
+59	50854	0.4	1	47491 3363
+60	41131	0.4	1	38274 2857
+61	32430	0.4	1	30232 2198
+62	35957	0.4	1	33628 2329
+63	29170	0.4	1	27188 1982
+64	19323	0.4	1	18099 1224
+65	13814	0.4	1	12792 1022
+66	14275	0.4	1	13404 871
+67	11827	0.4	1	11135 692
+68	7404	0.4	1	6958 446
+69	5427	0.4	1	5059 368
+70	3852	0.4	1	3601 251
+71	5927	0.4	1	5577 350
+72	1791	0.4	1	1644 147
+73	1445	0.4	1	935 510
+74	1267	0.4	1	868 399
+75	473	0.4	1	327 146
+76	206	0.4	1	118 88
+77	100	0.4	1	63 37
+78	68	0.4	1	41 27
+79	40	0.4	1	17 23
+80	35	0.4	1	25 10
+81	9	0.4	1	3 6
+82	15	0.4	1	5 10
+83	11	0.4	1	2 9
+84	5	0.4	1	1 4
+85	4	0.4	1	0 4
+86	5	0.4	1	0 5
+87	1	0.4	1	0 1
+88	3	0.4	1	2 1
+89	2	0.4	1	0 2
+90	1	0.4	1	0 1
+91	3	0.4	1	0 3
+92	3	0.4	1	0 3
+93	3	0.4	1	1 2
+94	5	0.4	1	0 5
+95	4	0.4	1	1 3
+96	3	0.4	1	0 3
+97	7	0.4	1	0 7
+98	8	0.4	1	0 8
+99	36	0.4	1	3 33
+100	347	0.4	1	10 337
+
+
+RUN STATISTICS FOR INPUT FILE: raw_fq/TN-legs-I_S40_L002_R1_001.fastq.gz
+=============================================
+29657042 sequences processed in total
+Sequences were truncated to a varying degree because of deteriorating qualities (Phred score quality cutoff: 20):	928906 (3.1%)
+Sequences removed because they became shorter than the length cutoff of 20 bp:	1858 (0.0%)
+RRBS reads trimmed by additional 2 bp when adapter contamination was detected:	14783138 (49.8%)
+
