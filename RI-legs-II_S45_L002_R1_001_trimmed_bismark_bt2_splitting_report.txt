@@ -1,0 +1,28 @@
+RI-legs-II_S45_L002_R1_001_trimmed_bismark_bt2.bam
+
+Parameters used to extract methylation information:
+Bismark Extractor Version: v0.19.0
+Bismark result file: single-end (SAM format)
+Output specified: comprehensive
+
+
+Processed 5737738 lines in total
+Total number of methylation call strings processed: 5737738
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	121076155
+
+Total methylated C's in CpG context:	4286185
+Total methylated C's in CHG context:	222625
+Total methylated C's in CHH context:	598447
+
+Total C to T conversions in CpG context:	31206909
+Total C to T conversions in CHG context:	21706581
+Total C to T conversions in CHH context:	63055408
+
+C methylated in CpG context:	12.1%
+C methylated in CHG context:	1.0%
+C methylated in CHH context:	0.9%
+
+

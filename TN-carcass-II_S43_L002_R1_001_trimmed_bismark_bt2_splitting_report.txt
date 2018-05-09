@@ -1,0 +1,28 @@
+TN-carcass-II_S43_L002_R1_001_trimmed_bismark_bt2.bam
+
+Parameters used to extract methylation information:
+Bismark Extractor Version: v0.19.0
+Bismark result file: single-end (SAM format)
+Output specified: comprehensive
+
+
+Processed 10400433 lines in total
+Total number of methylation call strings processed: 10400433
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	215852969
+
+Total methylated C's in CpG context:	9129615
+Total methylated C's in CHG context:	407237
+Total methylated C's in CHH context:	1030448
+
+Total C to T conversions in CpG context:	54872713
+Total C to T conversions in CHG context:	39467135
+Total C to T conversions in CHH context:	110945821
+
+C methylated in CpG context:	14.3%
+C methylated in CHG context:	1.0%
+C methylated in CHH context:	0.9%
+
+

@@ -1,0 +1,42 @@
+Bismark report for: trimrrbs1_fq/OK-legs-I_S36_L002_R1_001_trimmed.fq.gz (version: v0.19.0)
+Option '--directional' specified (default mode): alignments to complementary strands (CTOT, CTOB) were ignored (i.e. not performed)
+Bismark was run with Bowtie 2 against the bisulfite genome of /data/gpfs/assoc/inbre/ix_genomes/vb_IscaW1_scaffolds/ with the specified options: -q --score-min L,0,-0.2 --ignore-quals
+
+Final Alignment report
+======================
+Sequences analysed in total:	28564884
+Number of alignments with a unique best hit from the different alignments:	11153265
+Mapping efficiency:	39.0%
+Sequences with no alignments under any condition:	12732554
+Sequences did not map uniquely:	4679065
+Sequences which were discarded because genomic sequence could not be extracted:	5886
+
+Number of sequences with unique best (first) alignment came from the bowtie output:
+CT/CT:	5556611	((converted) top strand)
+CT/GA:	5590768	((converted) bottom strand)
+GA/CT:	0	(complementary to (converted) top strand)
+GA/GA:	0	(complementary to (converted) bottom strand)
+
+Number of alignments to (merely theoretical) complementary strands being rejected in total:	0
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	233558906
+
+Total methylated C's in CpG context:	9726858
+Total methylated C's in CHG context:	412150
+Total methylated C's in CHH context:	1077651
+Total methylated C's in Unknown context:	2734
+
+Total unmethylated C's in CpG context:	59075727
+Total unmethylated C's in CHG context:	41940453
+Total unmethylated C's in CHH context:	121326067
+Total unmethylated C's in Unknown context:	151215
+
+C methylated in CpG context:	14.1%
+C methylated in CHG context:	1.0%
+C methylated in CHH context:	0.9%
+C methylated in Unknown context (CN or CHN):	1.8%
+
+
+Bismark completed in 0d 0h 33m 57s
